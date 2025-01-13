@@ -13,7 +13,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Entre com o caminho do arquivo: ");
-        String path = "/Users/michaelgoncalves/Developer/DevSuperior/DesafioAnaliseDeVendas2/in.csv";
+        String path = scanner.nextLine();
         System.out.println();
         List<Sale> sales = new ArrayList<>();
 
